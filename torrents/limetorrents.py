@@ -11,7 +11,7 @@ from helper.html_scraper import Scraper
 
 class Limetorrent:
     def __init__(self):
-        self.BASE_URL = "https://www.limetorrents.pro"
+        self.BASE_URL = "https://www.limetorrents.lol"
         self.LIMIT = None
 
     @decorator_asyncio_fix
